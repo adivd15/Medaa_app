@@ -6,11 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MapActivity">
 
-    <Button
+    <ImageButton
         android:id="@+id/button_mapActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Map"
+        android:layout_width="108dp"
+        android:layout_height="103dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_mapicon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_QrScannerActivity"
         app:layout_constraintHorizontal_bias="0.29"
@@ -18,11 +20,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.897" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button_QrScannerActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="QrScanner"
+        android:layout_width="104dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_qrcodeicon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -30,12 +34,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.897" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button_mainActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="99dp"
+        android:layout_height="100dp"
         android:layout_marginStart="37dp"
-        android:text="Review"
+        android:scaleType="fitXY"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_reviewicon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

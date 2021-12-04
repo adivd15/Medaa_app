@@ -6,47 +6,56 @@
     android:layout_height="match_parent"
     tools:context=".QrScannerActivity">
 
-    <Button
+    <ImageButton
         android:id="@+id/button_mapActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Map"
+        android:layout_width="90dp"
+        android:layout_height="68dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/white"
+
+        android:src="@drawable/ic_mapicon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_QrScannerActivity"
-        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.897" />
+        app:layout_constraintVertical_bias="0.954" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button_QrScannerActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="QrScanner"
+        android:layout_width="87dp"
+        android:layout_height="65dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_qrcodeicon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.897" />
+        app:layout_constraintVertical_bias="0.954" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button_mainActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="90dp"
+        android:layout_height="64dp"
         android:layout_marginStart="37dp"
-        android:text="Review"
+        android:scaleType="fitXY"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_reviewicon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.36"
         app:layout_constraintStart_toEndOf="@+id/button_QrScannerActivity"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.897" />
+        app:layout_constraintVertical_bias="0.955" />
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".QrScannerActivity">
+        tools:context=".QrScannerActivity"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-98dp">
 
         <!--Frame layout is required as we are using camera view-->
         <!--Below is the scannerliveview which will scan QR code-->
@@ -56,22 +65,23 @@
         <eu.livotov.labs.android.camview.ScannerLiveView
             android:id="@+id/camview"
             android:layout_width="match_parent"
-            android:layout_height="552dp" >
+            android:layout_height="600dp">
 
             <TextView
                 android:id="@+id/idTVscanned"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
-                android:background="@color/white"
-                android:padding="5dp"
+                android:background="#252222"
+                android:padding="10dp"
                 android:text="@string/scanned_data"
-                android:textColor="@color/black" />
+                android:textColor="#4FE195" />
+
+
         </eu.livotov.labs.android.camview.ScannerLiveView>
 
+
     </FrameLayout>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

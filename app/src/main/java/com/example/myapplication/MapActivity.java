@@ -2,10 +2,12 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MapActivity extends AppCompatActivity {
 
@@ -18,8 +20,8 @@ public class MapActivity extends AppCompatActivity {
     }
 
     private void configureButton() {
-        Button buttonReview = findViewById(R.id.button_mainActivity);
-        Button buttonQrScanner = findViewById(R.id.button_QrScannerActivity);
+        ImageButton buttonReview = findViewById(R.id.button_mainActivity);
+        ImageButton buttonQrScanner = findViewById(R.id.button_QrScannerActivity);
 
         buttonReview.setOnClickListener(new View.OnClickListener() {
             @Override

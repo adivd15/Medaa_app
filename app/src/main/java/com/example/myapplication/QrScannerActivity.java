@@ -3,6 +3,7 @@ package com.example.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,6 +11,7 @@ import android.widget.Button;
 
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -79,8 +81,8 @@ public class QrScannerActivity extends AppCompatActivity {
     }
 
     private void configureButton() {
-        Button buttonMap = findViewById(R.id.button_mapActivity);
-        Button buttonReview = findViewById(R.id.button_mainActivity);
+        ImageButton buttonMap = findViewById(R.id.button_mapActivity);
+        ImageButton buttonReview = findViewById(R.id.button_mainActivity);
 
         buttonMap.setOnClickListener(new View.OnClickListener() {
             @Override

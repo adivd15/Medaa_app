@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void configureButton() {
-        Button buttonMap = findViewById(R.id.button_mapActivity);
-        Button buttonQrScanner = findViewById(R.id.button_QrScannerActivity);
+        ImageButton buttonMap = findViewById(R.id.button_mapActivity);
+        ImageButton buttonQrScanner = findViewById(R.id.button_QrScannerActivity);
 
         buttonMap.setOnClickListener(new View.OnClickListener() {
             @Override

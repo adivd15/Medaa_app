@@ -6,40 +6,47 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
+    <ImageButton
         android:id="@+id/button_mapActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Map"
+        android:layout_width="90dp"
+        android:layout_height="68dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_mapicon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_QrScannerActivity"
-        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065" />
+        app:layout_constraintVertical_bias="0.954" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button_QrScannerActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="QrScanner"
+        android:layout_width="87dp"
+        android:layout_height="65dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_qrcodeicon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065" />
+        app:layout_constraintVertical_bias="0.954" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button_mainActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="90dp"
+        android:layout_height="64dp"
         android:layout_marginStart="37dp"
-        android:text="Review"
+        android:scaleType="fitXY"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_reviewicon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.36"
         app:layout_constraintStart_toEndOf="@+id/button_QrScannerActivity"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065" />
+        app:layout_constraintVertical_bias="0.955" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -50,12 +50,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.955" />
 
+
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         tools:context=".QrScannerActivity"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="-98dp">
+        tools:layout_editor_absoluteX="0dp">
 
         <!--Frame layout is required as we are using camera view-->
         <!--Below is the scannerliveview which will scan QR code-->
@@ -65,7 +67,7 @@
         <eu.livotov.labs.android.camview.ScannerLiveView
             android:id="@+id/camview"
             android:layout_width="match_parent"
-            android:layout_height="600dp">
+            android:layout_height="538dp">
 
             <TextView
                 android:id="@+id/idTVscanned"
@@ -77,8 +79,18 @@
                 android:text="@string/scanned_data"
                 android:textColor="#4FE195" />
 
+            <TextView
+                android:id="@+id/pointsDisplay"
+                android:layout_width="228dp"
+                android:layout_height="34dp"
+                android:background="@color/white"
+                android:text="Points: "
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="563dp" />
+
 
         </eu.livotov.labs.android.camview.ScannerLiveView>
+
 
 
     </FrameLayout>

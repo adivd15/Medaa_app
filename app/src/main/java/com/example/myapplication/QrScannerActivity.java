@@ -25,15 +25,21 @@ import eu.livotov.labs.android.camview.scanner.decoder.zxing.ZXDecoder;
 import static android.Manifest.permission.CAMERA;
 import static android.Manifest.permission.VIBRATE;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class QrScannerActivity extends AppCompatActivity {
     private ScannerLiveView camera;
     private TextView scannedTV;
+    private TextView pointsDisplay;
+    static public int points = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_qr_scanner);
 
         configureButton();
+        pointsDisplay = findViewById(R.id.pointsDisplay);
 
         // check permission method is to check that the
         // camera permission is granted by user or not.
@@ -74,6 +80,14 @@ public class QrScannerActivity extends AppCompatActivity {
                 // method is called when camera scans the
                 // qr code and the data from qr code is
                 // stored in data in string format.
+
+                Pattern p = Pattern.compile("[0-9]+");
+                Matcher m = p.matcher(data);
+                while (m.find()) {
+                    int n = Integer.parseInt(m.group());
+                    points = points + n;
+                }
+                pointsDisplay.setText("Points: "+points);
                 scannedTV.setText(data);
             }
         });

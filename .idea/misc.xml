@@ -3,9 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/drawable/ic_bg_map.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/drawable/ic_lightbulb.xml" value="0.1625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/drawable/ic_points.xml" value="0.1625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/drawable/ic_pu_lightbulb.xml" value="0.1625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/drawable/ic_pu_recycle.xml" value="0.1625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/drawable/ic_pu_solarpanel.xml" value="0.1625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/drawable/ic_pu_tree.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/drawable/ic_pu_turtle.xml" value="0.1625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/drawable/ic_pu_windmill.xml" value="0.1625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/drawable/ic_recyclelogo.xml" value="0.1625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/drawable/ic_solarpanel.xml" value="0.1625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/drawable/ic_windmill.xml" value="0.1625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/layout/activity_lightbulb.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/layout/activity_map.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/layout/activity_maps.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/layout/activity_maps2.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/layout/activity_qr_scanner.xml" value="0.176" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/layout/activity_recycle.xml" value="0.13229166666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/layout/activity_solar.xml" value="0.13229166666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/layout/activity_tree.xml" value="0.13229166666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/layout/activity_turtle.xml" value="0.13229166666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/layout/activity_windmill.xml" value="0.13229166666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/layout/pop2.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/bla/app/src/main/res/layout/popupwindow.xml" value="0.16" />
         <entry key="..\:/Users/adivd/AndroidStudioProjects/MyApplication14/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/adivd/AndroidStudioProjects/MyApplication14/app/src/main/res/layout/activity_map.xml" value="0.25416666666666665" />

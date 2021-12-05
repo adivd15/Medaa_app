@@ -32,7 +32,7 @@ public class QrScannerActivity extends AppCompatActivity {
     private ScannerLiveView camera;
     private TextView scannedTV;
     private TextView pointsDisplay;
-    static public int points = 0;
+    static public int points;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -101,7 +101,7 @@ public class QrScannerActivity extends AppCompatActivity {
         buttonMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(QrScannerActivity.this,MapActivity.class));
+                startActivity(new Intent(QrScannerActivity.this,MapsActivity.class));
             }
         });
 

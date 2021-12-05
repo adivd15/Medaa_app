@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -19,7 +20,7 @@ import com.example.myapplication.databinding.ActivityMapsBinding;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
-    private GoogleMap mMap;
+    public static GoogleMap mMap;
     private ActivityMapsBinding binding;
 
     @Override
@@ -33,7 +34,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-
+        configureButton();
         Button btnAddCenter = findViewById(R.id.btnAddCenter);
         btnAddCenter.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,12 +45,28 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     public void open_popup() {
-        Intent intent = new Intent(this, Pop.class);
+        Intent intent = new Intent(this, Pop2.class);
         startActivity(intent);
     }
 
+    private void configureButton() {
+        ImageButton buttonMap = findViewById(R.id.button_QrScannerActivity);
+        ImageButton buttonReview = findViewById(R.id.button_mainActivity);
 
+        buttonMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MapsActivity.this, QrScannerActivity.class));
+            }
+        });
 
+        buttonReview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MapsActivity.this, MainActivity.class));
+            }
+        });
+    }
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.

@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LeaderBoardTry2">
         <activity
+            android:name=".SolarActivity"
+            android:theme = "@style/Theme.LeaderBoardTry2.Popme"
+            android:exported="false" />
+        <activity
+            android:name=".WindmillActivity"
+            android:theme = "@style/Theme.LeaderBoardTry2.Popme"
+            android:exported="false" />
+        <activity
+            android:name=".TurtleActivity"
+            android:theme = "@style/Theme.LeaderBoardTry2.Popme"
+            android:exported="false" />
+        <activity
+            android:name=".TreeActivity"
+            android:theme = "@style/Theme.LeaderBoardTry2.Popme"
+            android:exported="false" />
+        <activity
+            android:name=".LightbulbActivity"
+            android:theme = "@style/Theme.LeaderBoardTry2.Popme"
+            android:exported="false" />
+        <activity
+            android:name=".RecycleActivity"
+            android:theme = "@style/Theme.LeaderBoardTry2.Popme"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

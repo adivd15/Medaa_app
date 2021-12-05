@@ -3,7 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/drawable/ic_lightbulb.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/drawable/ic_recyclelogo.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/drawable/ic_solarpanel.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/drawable/ic_tree.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/drawable/ic_turtule.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/drawable/ic_windmill.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/layout/activity_lightbulb.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/layout/activity_pop.xml" value="0.1" />
+        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/layout/activity_recycle.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/layout/activity_solar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/layout/activity_tree.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/layout/activity_turtle.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/layout/activity_windmill.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/layout/popup_window.xml" value="0.13072916666666667" />
+        <entry key="..\:/Users/Diana/AndroidStudioProjects/LeaderBoardTry2/app/src/main/res/layout/recycl.xml" value="0.4" />
       </map>
     </option>
   </component>

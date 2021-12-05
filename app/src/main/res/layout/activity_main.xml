@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_700"
+    android:background="#272626"
     tools:context=".MainActivity">
 
 
@@ -24,56 +24,52 @@
         app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
+            android:id="@+id/layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/ic_recyclelogo"
-                android:layout_marginTop="50dp"
-                android:layout_width="410dp"
-                android:layout_height="100dp"
-                android:layout_marginBottom="10dp"
-                android:src="@drawable/ic_recyclelogo"
-                />
-
-            <ImageView
+           <ImageButton
+               android:id="@+id/recyclelogo"
+               android:layout_width="410dp"
+               android:layout_height="100dp"
+               android:layout_marginTop="60dp"
+               android:layout_marginBottom="10dp"
+               android:src="@drawable/ic_recyclelogo" />
+            <ImageButton
                 android:id="@+id/ic_lightbulb"
                 android:layout_width="410dp"
                 android:layout_height="100dp"
                 android:layout_marginBottom="10dp"
                 android:src="@drawable/ic_lightbulb" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/ic_tree"
                 android:layout_width="410dp"
                 android:layout_height="100dp"
-                android:src="@drawable/ic_tree"
                 android:layout_marginBottom="10dp"
-                />
+                android:src="@drawable/ic_tree" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/ic_turtule"
                 android:layout_width="410dp"
                 android:layout_height="100dp"
-                android:src="@drawable/ic_turtule"
                 android:layout_marginBottom="10dp"
-                />
+                android:src="@drawable/ic_turtule" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/ic_windmill"
                 android:layout_width="410dp"
                 android:layout_height="100dp"
-                android:src="@drawable/ic_windmill"
                 android:layout_marginBottom="10dp"
-                />
-            <ImageView
+                android:src="@drawable/ic_windmill" />
+
+            <ImageButton
                 android:id="@+id/ic_solarpanel"
                 android:layout_width="410dp"
                 android:layout_height="100dp"
-                android:src="@drawable/ic_solarpanel"
                 android:layout_marginBottom="10dp"
-                />
+                android:src="@drawable/ic_solarpanel" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

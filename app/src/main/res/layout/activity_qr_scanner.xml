@@ -9,7 +9,7 @@
     <ImageButton
         android:id="@+id/button_mapActivity"
         android:layout_width="90dp"
-        android:layout_height="68dp"
+        android:layout_height="69dp"
         android:background="@android:color/white"
         android:scaleType="fitXY"
 

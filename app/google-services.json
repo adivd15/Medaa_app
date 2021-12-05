@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1079924468128",
+    "firebase_url": "https://myprogressbar2-default-rtdb.firebaseio.com",
+    "project_id": "myprogressbar2",
+    "storage_bucket": "myprogressbar2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079924468128:android:7606084ac665d9d72d9cc5",
+        "android_client_info": {
+          "package_name": "com.example.myprogressbar2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079924468128-kgn3vvl9n0vif62l8ibgh3d2ppmr2i60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDjik_F-G3okzQZx8ngRUML7-y5GQ8lEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079924468128-kgn3vvl9n0vif62l8ibgh3d2ppmr2i60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
